@@ -1,2 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 A new snapshot of the directory is created. I need to do it in case i want to track the versions of all the files in the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is not an existing directory, its a temporary area to hold the files that are modified and to be commited.
