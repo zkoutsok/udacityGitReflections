@@ -1,0 +1,8 @@
+GIT commands:
+1.) git clone..brings repository(collection of file-many snapshots)
+2.) git commit..a snapshot of files..is a part of repository.
+3.) git log...mention total changes with IDS...total commits.
+4.) git diff..compare changes...compare commits.
+5.) git checkout <ID>..restoring previous commit.
+6.) git init..(initializes repository in a dir and includes a hidden .git file). git init is not a commit.
+7.) git add..adds files to the pre-commit stage. Files that need to be modified in order to be commited. So if i do commit these files will be included.
