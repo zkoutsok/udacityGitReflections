@@ -6,3 +6,26 @@ GIT commands:
 5.) git checkout <ID>..restoring previous commit.
 6.) git init..(initializes repository in a dir and includes a hidden .git file). git init is not a commit.
 7.) git add..adds files to the pre-commit stage. Files that need to be modified in order to be commited. So if i do commit these files will be included.
+8.) git diff (version1 between commits) (version2 with no arguments, show the differences between working directory and temporary area
+9.) git diff --staged...(show the differences between staging area AND the repository)
+10.) git reset --hard..pane oles oi allages sto working kai sto staging area.
+11.) git branch <>...creates a new branch from master.
+12.) git checkout <branch_name>...set the target of branch we want to update.
+
+For bugs linear...just commit. For new features..different branch is the way to go. Then you do merge of your branch with the master one.
+
+13.) git checkout -b branch_name equivalent to:
+     i.) git branch new_branch
+     ii.) git checkout new_branch
+
+ 14.) git merge var1 var1...merges changes between braches..we want the first one to be the master, the final one.!
+
+ 15.) git show ID...show diff compared with parent without knowing the parent. BECAUSE there might be coming from a merge, and you can't 
+ see explicitly the differences with the parent.
+
+ 16.) git branch -d branch_name...deleted the branch
+ 16.5) git reset <ID> pas piso..kai meta git checkout -- file to revert.
+
+ 17.) Conflict...git merge --abort gia na figei to merge state
+ 18.) In order for my computer to realize a github repository, i need
+      "git remote add" in CLI of git bash.
